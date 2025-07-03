@@ -90,9 +90,9 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom pb-25" style="background-color: #ffffff;">
+            <div class="footer-bottom pb-25 pt-25" style="background-color:#7ed4ec;">
                 <div class="copyright text-center">
-                    <p>Copyright © 2025 <a href="index.php">Career Buddy College</a>. All rights reserved.</p>
+                    <p style="color: #000;">Copyright © 2025 <a href="index.php" style="color: #000;">Career Buddy College</a>. All rights reserved.</p>
                 </div>
             </div>
         </div>

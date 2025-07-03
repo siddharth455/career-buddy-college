@@ -139,7 +139,7 @@
                 <div class="col-lg-3 col-md-6 mt-60">
                         <div class="xb-program__wrapper">
                             <div class="xb-item--img text-center">
-                                <a href="course-single.php"><img src="assets/img/program/pro-img06.png" alt=""></a>
+                                <a href="course-single.php"><img src="assets/img/uploads/nursing.jpg" alt=""></a>
                             </div>
                             <div class="xb-item--holder">
                                 <div class="xb-item--deprt ul_li_between">
@@ -160,7 +160,7 @@
                     <div class="col-lg-3 col-md-6 mt-60">
                         <div class="xb-program__wrapper">
                             <div class="xb-item--img text-center">
-                                <a href="course-single.php"><img src="assets/img/program/pro-img02.png" alt=""></a>
+                                <a href="course-single.php"><img src="assets/img/uploads/bpt.jpg" alt=""></a>
                             </div>
                             <div class="xb-item--holder">
                                 <div class="xb-item--deprt ul_li_between">
@@ -180,7 +180,7 @@
                     <div class="col-lg-3 col-md-6 mt-60">
                         <div class="xb-program__wrapper">
                             <div class="xb-item--img text-center">
-                                <a href="course-single.php"><img src="assets/img/program/pro-img03.png" alt=""></a>
+                                <a href="course-single.php"><img src="assets/img/uploads/opto.jpg" alt=""></a>
                             </div>
                             <div class="xb-item--holder">
                                 <div class="xb-item--deprt ul_li_between">
@@ -200,7 +200,7 @@
                     <div class="col-lg-3 col-md-6 mt-60">
                         <div class="xb-program__wrapper">
                             <div class="xb-item--img text-center">
-                                <a href="course-single.php"><img src="assets/img/program/pro-img04.png" alt=""></a>
+                                <a href="course-single.php"><img src="assets/img/uploads/ott.jpg" alt=""></a>
                             </div>
                             <div class="xb-item--holder">
                                 <div class="xb-item--deprt ul_li_between">
@@ -220,7 +220,7 @@
                     <div class="col-lg-3 col-md-6 mt-60">
                         <div class="xb-program__wrapper">
                             <div class="xb-item--img text-center">
-                                <a href="course-single.php"><img src="assets/img/program/pro-img05.png" alt=""></a>
+                                <a href="course-single.php"><img src="assets/img/uploads/bmlt.jpg" alt=""></a>
                             </div>
                             <div class="xb-item--holder">
                                 <div class="xb-item--deprt ul_li_between">
@@ -240,7 +240,7 @@
                     <div class="col-lg-3 col-md-6 mt-60">
                         <div class="xb-program__wrapper">
                             <div class="xb-item--img text-center">
-                                <a href="course-single.php"><img src="assets/img/program/pro-img01.png" alt=""></a>
+                                <a href="course-single.php"><img src="assets/img/uploads/bmrit.jpg" alt=""></a>
                             </div>
                             <div class="xb-item--holder">
                                 <div class="xb-item--deprt ul_li_between">
@@ -260,7 +260,7 @@
                     <div class="col-lg-3 col-md-6 mt-60">
                         <div class="xb-program__wrapper">
                             <div class="xb-item--img text-center">
-                                <a href="course-single.php"><img src="assets/img/program/pro-img01.png" alt=""></a>
+                                <a href="course-single.php"><img src="assets/img/uploads/mpt.jpg" alt=""></a>
                             </div>
                             <div class="xb-item--holder">
                                 <div class="xb-item--deprt ul_li_between">
@@ -280,7 +280,7 @@
                     <div class="col-lg-3 col-md-6 mt-60">
                         <div class="xb-program__wrapper">
                             <div class="xb-item--img text-center">
-                                <a href="course-single.php"><img src="assets/img/program/pro-img01.png" alt=""></a>
+                                <a href="course-single.php"><img src="assets/img/uploads/mha.jpg" alt=""></a>
                             </div>
                             <div class="xb-item--holder">
                                 <div class="xb-item--deprt ul_li_between">
@@ -299,7 +299,7 @@
                     </div>
                 </div>
                 <div class="xb-cta bg_img mt-120 pos-rel" data-background="assets/img/uploads/scholarship-banner.png">
-                    <h2 class="mb-15">Get Your Quality Skills Certificate Through Career Buddy College</h2>
+                    <h2 class="mb-15">Get Your Quality Skills Certificate Through Guru Nanak College</h2>
                     <div class="xb-btn xb-cta-btn ul_li">
                         <a class="thm-btn btn-yellow mt-20" href="contact.php">apply now
                             <span><img src="assets/img/icon/learning.png" alt=""></span>

@@ -1,5 +1,5 @@
-<section class="testimonial  pb-60">
-            <div class="section-title text-center mb-60">
+<section class="testimonial  pb-60 pt-40">
+            <div class="section-title text-center mb-10">
                 <span class="sub-title">our testimonial</span>
                 <h1 class="title">why student love us</h1>
             </div>

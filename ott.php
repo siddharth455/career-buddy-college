@@ -6,15 +6,15 @@
     <main>
        
         <!-- breadcrumb start -->
-        <section class="breadcrumb bg_img ul_li" data-background="assets/img/uploads/banner-7.jpg">
+        <section class="breadcrumb bg_img ul_li breadcrumb--banner" data-background="assets/img/uploads/banner-7.jpg">
             <div class="container">
                 <div class="breadcrumb__content text-center">
-                    <h2 class="breadcrumb__title">Courses details</h2>
-                    <p class="breadcrumb__desc">Explore Our Comprehensive Programs</p>
+                    <h2 class="breadcrumb__title">Bachelor of </h2>
+                    <h2 style="color: #ffffff;">Operation Theatre Technology (BOTT)</h2>
                 </div>
             </div>
         </section>
-        <!-- breadcrumb end -->
+        <!-- breadcrumb end --> 
 
         <!-- course single start -->
         <section class="course-single pt-20 pb-120">
