@@ -134,10 +134,10 @@ select {
 
 input[type="text"], input[type="password"], input[type="email"], input[type="tel"], form select, textarea {
   width: 100%;
-  height: 75px;
+  height: 45px;
   border-radius: 0;
   background-color: #F3F4F5;
-  padding: 24px 20px;
+  padding: 14px 10px;
   border: 0;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
