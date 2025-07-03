@@ -1,0 +1,63 @@
+.section-title {
+    .sub-title{
+        color: var(--color-heading);
+        font-family: var(--font-caveat);
+        font-weight: 400;
+        line-height: 28px;
+        font-size: 25px;
+        margin-bottom: 12px;
+        text-transform: capitalize;
+        display: inline-block;
+    }
+    .title {
+        color: var(--color-heading);
+        font-size: 48px;
+        font-weight: 700;
+        letter-spacing: 0;
+        line-height: 60px;
+        text-transform: capitalize;
+        display: block;
+        @include respond(lg) {
+            font-size: 38px;
+            line-height: 50px;
+        }
+        @include respond(md) {
+            font-size: 35px;
+            line-height: 40px;
+        }
+        @include respond(xs) {
+            font-size: 28px;
+            line-height: 35px;
+        }
+    }
+    .content {
+        display: inline-block;
+        font-size: 18px;
+        line-height: 28px;
+        color: var(--color-gray);
+    }
+    &.clr-white {
+        .title, .sub-title {
+            color: var(--color-white);
+        }
+    }
+    &--md {
+        .title {
+            font-size: 40px;
+            line-height: 52px;
+            @include respond(lg) {
+                font-size: 35px;
+                line-height: 46px;
+            }
+            @include respond(md) {
+                font-size: 35px;
+                line-height: 40px;
+            }
+            @include respond(xs) {
+                font-size: 28px;
+                line-height: 35px;
+            }
+        }
+    }
+    
+}

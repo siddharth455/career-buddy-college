@@ -1,0 +1,103 @@
+.mr-set {
+    margin-left: -42px;
+    margin-right: -42px;
+    @include respond(xs) {
+        margin: 0;
+    }
+}
+.xb-campus__wrapper {
+    display: inline-block;
+    &::before {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: -34px;
+        background-image: url(../img/shape/campus-shape.png);
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: 100%;
+        @include respond(lg) {
+            bottom: -22px;
+        }
+    }
+    .xb-item {
+        &--holder {
+            position: absolute;
+            bottom: 40px;
+            left: 40px;
+        }
+        &--img {
+            border-radius: 15px;
+            img {
+                width: 100%;
+            }
+            
+        }
+        &--title {
+            background: var(--color-white);
+            padding: 5px 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            transform: translateY(20px);
+            opacity: 0;
+        }
+        &--holder {
+            .xb-btn_thm {
+                transform: translateY(20px);
+                opacity: 0;
+                @include transition(0);
+            } 
+        }
+    }
+}
+.campus-slider .swiper-slide-active .xb-campus__wrapper {
+    .xb-item {
+        &--title {
+            opacity: 1;
+            transform: translateY(0);
+            @include transition(.4s);
+        }
+        &--holder {
+            .xb-btn_thm {
+                opacity: 1;
+                transform: translateY(0);
+                @include transition(.4s);
+                transition-delay: .2s;
+            } 
+        }
+    }
+}
+.campus-slider {
+    border-radius: 20px;
+    .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: 120px;
+    }
+    .swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 4px 4px;
+    }
+    .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        border-radius: 50%;
+        background: var(--color-heading);
+        opacity: .2;
+    }
+    .swiper-pagination-bullet-active {
+        height: 14px;
+        width: 14px;
+        background: var(--color-heading);
+        opacity: 1;
+    }
+}
+.xb-btn_thm {
+    a {
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0.05em;
+        padding: 0px 30px;
+        margin-left: 0;
+    }
+}   

@@ -1,0 +1,137 @@
+.department {
+    background:  var(--color-sec-bg);
+}
+.xb-dep-wrapper {
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 1px;
+        background: linear-gradient(137deg, #f1f1e9 0%, #cbcbc2 21.37%, #cbcbc2 65.97%, #f1f1e9 100%);
+        @include respond(md) {
+            display: none;
+        }
+    }
+}
+.dep-inner {
+    &::before {
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        left: 0;
+        top: 36.5%;
+        content: '';
+        background: linear-gradient(137deg, #f1f1e9 0%, #cbcbc2 21.37%, #cbcbc2 65.97%, #f1f1e9 100%);
+        @include respond(md) {
+            display: none;
+        }
+    }
+    .dp-col {
+        &:last-child {
+            .xb-dep-wrapper::before {
+                display: none;
+            }
+        }
+    }
+}
+.dep-inner-two::before {
+    top: 50%;
+}
+.xb-department {
+    padding: 50px 20px 40px;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 100%;
+    @include transition(.4s);
+    &:hover {
+        box-shadow: 0 12px 46px 0 #c6c6be;
+        background: #fff;
+        .dep-title {
+                color: var(--color-heading);
+            }
+            .xb-item--icon {
+                background: var(--color-primary);
+                svg path {
+                    fill: var(--color-heading);
+                }
+            }     
+    }
+    .xb-item {
+        &--icon {
+            height: 70px;
+            width: 70px;
+            background-color: var(--color-violet);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 100%;
+            @include border-radius(50%);
+            margin: 0 auto;
+            @include transition(.4s);
+        }
+        &--title {
+            font-size: 24px;
+            line-height: 34px;
+            color: var(--color-heading);
+            margin: 18px 0 5px;
+            @include transition(.4s);
+        }
+        span {
+            @include transition(.4s);
+        }
+    }
+    
+    .xb-shape {
+        .shape {
+            position: absolute;
+            background: #721920;
+            border-radius: 100%;
+            @include transition(.4s);
+            &--one {
+                left: -25px;
+                bottom: 43px;
+                height: 38px;
+                width: 38px;
+            }
+            &--two {
+                top: -20px;
+                right: 31px;
+                height: 38px;
+                width: 38px;
+            }
+            &--three {
+                bottom: -38px;
+                right: -45px;
+                height: 100px;
+                width: 100px;
+            }
+        }
+    }
+}
+.div-link {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.xb-feature-shape {
+    @include respond(md) {
+        display: none;
+    }
+    .shape {
+        position: absolute;
+        &--one {
+            top: 13%;
+            left: 5%;
+
+        }
+        &--two {
+            right: 4%;
+            bottom: 28%;
+        }
+    }
+}

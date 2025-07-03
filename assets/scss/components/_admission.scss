@@ -1,0 +1,49 @@
+.admission-iconbox {
+    padding-left: 150px;
+    border-left: 1px solid #D7D7D6;
+    @include respond(laptop) {
+        padding-left: 50px;
+    }
+    @include respond(lg) {
+        padding-left: 30px;
+    }
+    @include respond(md) {
+        padding-left: 30px;
+    }
+}
+.admission-iconbox-item {
+    &:not(:last-child) {
+        margin-bottom: 72px;
+        @include respond(lg) {
+            margin-bottom: 40px;
+        }
+    }
+    .xb-item {
+        &--icon {
+            width: 85px;
+            height: 85px;
+            background-color: #F1F1E9;
+            @include border-radius(50%);
+            margin-right: 30px;
+            @include center;
+        }
+        &--holder {
+            width: calc(100% - 115px);
+            @include respond(xs) {
+                width: 100%;
+                margin-top: 30px;
+            }
+        }
+        &--title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 14px;
+            font-family: var(--font-body);
+            text-transform: capitalize ;
+        }
+        &--content {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}

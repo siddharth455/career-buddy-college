@@ -1,0 +1,38 @@
+.funfact-inner {
+    padding: 80px;
+    padding-top: 50px;
+    background-color: var(--color-white);
+    @include border-radius(10px);
+    margin-top: -140px;
+    z-index: 1;
+    position: relative;
+    gap: 30px;
+    @include respond(xs) {
+        padding: 30px;
+        padding-top: 0;
+    }
+}
+.funfact-item {
+    .xb-item {
+        &--title {
+            color: #D9293A;
+            font-size: 70px;
+            display: flex;
+            align-items: center;
+            font-family: var(--font-body);
+            font-weight: 700;
+            text-transform: uppercase;
+            @include respond(xs) {
+                font-size: 40px;
+            }
+            span {
+                font-size: 40px;
+                color: #170006;
+                margin-left: 13px;
+                @include respond(xs) {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
