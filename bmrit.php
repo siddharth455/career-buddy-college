@@ -22,11 +22,7 @@
                
                 <div class="row flex-row-reverse mt-none-30">
                 <div class="col-lg-4 mt-30">
-  <div class="internal-form styled-form-box">
-    <span id="ee-form-6">
-      <script src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/applycbc/ee-form-widget/form-6/widget.js" defer></script>
-    </span>
-  </div>
+                <?php require "applyform.php" ?>
 </div>
 
                     <div class="col-lg-8 mt-30">
