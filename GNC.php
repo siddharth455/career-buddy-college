@@ -33,18 +33,20 @@
                                 </svg></span>
                         </a>
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                      <?php require "applyform.php" ?>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="modal fade no-bg-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content border-0 shadow-none bg-transparent">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-0">
+        <?php require "applyform.php"; ?>
+      </div>
+    </div>
+  </div>
+</div>
+
+
                     </div>
                 </div>
                 <div class="col-xl-6 offset-xl-1 mt-30">
@@ -314,7 +316,7 @@
                 <div class="xb-cta bg_img mt-120 pos-rel" data-background="assets/img/uploads/scholarship-banner.png">
                     <h2 class="mb-15">Get Your Quality Skills Certificate Through Guru Nanak College</h2>
                     <div class="xb-btn xb-cta-btn ul_li">
-                        <a class="thm-btn btn-yellow mt-20" href="contact.php">apply now
+                        <a class="thm-btn btn-yellow mt-20"data-bs-toggle="modal" data-bs-target="#exampleModal">apply now
                             <span><img src="assets/img/icon/learning.png" alt=""></span>
                         </a> 
                         <span class="mt-20"><img src="assets/img/icon/calling-icon.png" alt=""> 7300900900</span>

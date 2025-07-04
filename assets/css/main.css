@@ -132,9 +132,43 @@ select {
   background-color: transparent;
   border: 0; }
 
+ /* Make close button relative to modal-content */
+.modal-content {
+  position: relative;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+/* Style modal body (your form container) */
+.modal-body {
+  background: rgb(215, 219, 226); /* light background for form */
+  padding: 30px;
+  border-radius: 20px;
+  position: relative;
+}
+
+/* Reposition the close button inside the form box */
+.modal-header {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 10;
+  border: none;
+}
+
+/* Make close button look clean */
+.btn-close {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  padding: 0.75rem;
+}
+
+
 input[type="text"], input[type="password"], input[type="email"], input[type="tel"], form select, textarea {
   width: 100%;
-  height: 45px;
+  height: 35px;
   border-radius: 0;
   background-color: #F3F4F5;
   padding: 14px 10px;
