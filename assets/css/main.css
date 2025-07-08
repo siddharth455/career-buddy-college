@@ -7977,6 +7977,18 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
     background-position: center;
     background-repeat: no-repeat;
 }
+.breadcrumb__overlay-box {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1000px; /* control width */
+  margin: 0 auto;
+  width: 100%;
+}
 
 .breadcrumb--banner::before {
     content: "";
@@ -7987,7 +7999,6 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
     background: rgba(0, 0, 0, 0.5); /* blackish overlay */
     z-index: 0;
 }
-
 .breadcrumb--banner > * {
     position: relative;
     z-index: 1;

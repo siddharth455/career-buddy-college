@@ -5,51 +5,223 @@
     <!-- main area start  -->
     <main>
         <!-- hero section start  -->
-        <section class="hero o-hidden pos-rel">
-            <div class="bg_img" data-background="assets/img/bg/hero_bg.jpg">
+        <section class="hero hero-style-two pos-rel">
+            <div class="bg_img hero-bg" data-background="assets/img/uploads/index-banner.jpg">
                 <div class="container">
-                    <div class="hero__content-wrap text-center pt-55">
-                        <div class="section-title clr-white">
-                            <span class="sub-title wow fadeInUp" data-wow-delay="0ms" data-wow-duration=".6s">Welcome to</span>
-                            <h1 class="title wow fadeInUp" data-wow-delay="150ms" data-wow-duration=".6s">Career Buddy College Your <br> Pathway to Success</h1>
-                        </div>
-                        <div class="xb-hero-img">
-                            <img src="assets/img/hero/hero_img01.png" alt="">
+                    <div class="col-lg-7 col-md-7">
+                        <div class="hero__content-wrap">
+                            <div class="section-title clr-white pt-25">
+                                <span class="sub-title wow fadeInUp" data-wow-delay="0ms" data-wow-duration=".4s">Welcome to career buddy college</span>
+                                <h1 class="title mb-25 wow fadeInUp" data-wow-delay="200ms" data-wow-duration=".4s">Achieve Your Dreams <br> At Career Buddy College</h1>
+                                <p class="content wow fadeInUp" data-wow-delay="400ms" data-wow-duration=".4s">We empower students to achieve their dreams through diverse.</p>
+                            </div>
+                            <div class="clg-btn mt-55 wow fadeInUp" data-wow-delay="600ms" data-wow-duration=".4s">
+                                <a class="thm-btn thm-btn--white"data-bs-toggle="modal" data-bs-target="#exampleModal">apply now
+                                    <span><img src="assets/img/icon/learning.png" alt=""></span>
+                                </a> 
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- hero section end  -->
-
-        <!-- hero btn start -->
-        <div class="hero-btns">
-            <div class="btns ul_li_center">
-                <a class="thm-btn thm-btn--stroke-white sec-btn" href="courses.php">explore programs
-                    <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M22 4.84999V16.74C22 17.71 21.21 18.6 20.24 18.72L19.93 18.76C18.29 18.98 15.98 19.66 14.12 20.44C13.47 20.71 12.75 20.22 12.75 19.51V5.59999C12.75 5.22999 12.96 4.88999 13.29 4.70999C15.12 3.71999 17.89 2.83999 19.77 2.67999H19.83C21.03 2.67999 22 3.64999 22 4.84999Z" fill="white" />
-                        <path d="M10.71 4.70999C8.87999 3.71999 6.10999 2.83999 4.22999 2.67999H4.15999C2.95999 2.67999 1.98999 3.64999 1.98999 4.84999V16.74C1.98999 17.71 2.77999 18.6 3.74999 18.72L4.05999 18.76C5.69999 18.98 8.00999 19.66 9.86999 20.44C10.52 20.71 11.24 20.22 11.24 19.51V5.59999C11.24 5.21999 11.04 4.88999 10.71 4.70999ZM4.99999 7.73999H7.24999C7.65999 7.73999 7.99999 8.07999 7.99999 8.48999C7.99999 8.90999 7.65999 9.23999 7.24999 9.23999H4.99999C4.58999 9.23999 4.24999 8.90999 4.24999 8.48999C4.24999 8.07999 4.58999 7.73999 4.99999 7.73999ZM7.99999 12.24H4.99999C4.58999 12.24 4.24999 11.91 4.24999 11.49C4.24999 11.08 4.58999 10.74 4.99999 10.74H7.99999C8.40999 10.74 8.74999 11.08 8.74999 11.49C8.74999 11.91 8.40999 12.24 7.99999 12.24Z" fill="white" />
-                      </svg></span>
-                </a>
-                <a class="thm-btn thm-btn--stroke-white sec-btn" href="contact.php">apply now
-                    <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.25 19.492V20.75C16.25 21.164 15.914 21.5 15.5 21.5C15.086 21.5 14.75 21.164 14.75 20.75V19.5H16C16.084 19.5 16.167 19.497 16.25 19.492Z" fill="white" />
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.75 19.5H8C5.929 19.5 4.25 17.821 4.25 15.75V12.668L9.964 15.825C11.202 16.509 12.798 16.509 14.036 15.825L14.75 15.431V19.5ZM16.25 14.602L19.75 12.668V15.75C19.75 17.737 18.205 19.363 16.25 19.492V14.602Z" fill="white" />
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.75 14.288L13.552 14.95C12.608 15.472 11.392 15.472 10.448 14.95L2.134 10.356C1.568 10.043 1.25 9.49499 1.25 8.92199C1.25 8.34799 1.568 7.79999 2.134 7.48799L10.448 2.89299C11.392 2.37199 12.608 2.37199 13.552 2.89299L21.866 7.48799C22.432 7.79999 22.75 8.34799 22.75 8.92199C22.75 9.49499 22.432 10.043 21.866 10.356L16.25 13.459V12.75C16.25 12.551 16.171 12.36 16.03 12.22L12.53 8.71999C12.238 8.42699 11.762 8.42699 11.47 8.71999C11.177 9.01199 11.177 9.48799 11.47 9.77999L14.75 13.061V14.288Z" fill="white" />
-                      </svg></span>
-                </a>
-                <a class="thm-btn thm-btn--stroke-white sec-btn" href="contact.php">talk with a teacher
-                    <span><svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M13.0364 2.63798C11.6702 1.79536 10.0512 1.33203 8.37891 1.33203C3.82654 1.33203 0 4.72368 0 9.06641C0 10.589 0.473 12.0486 1.37148 13.3092L0.116359 17.2497C-0.0162422 17.6659 0.295539 18.0898 0.730598 18.0898C0.83007 18.0898 0.930188 18.0669 1.02257 18.0198L4.83957 16.0791C4.99413 16.1456 5.15062 16.2076 5.3087 16.265C4.42496 14.8857 3.95312 13.3023 3.95312 11.6445C3.95312 6.70755 8.10726 2.91208 13.0364 2.63798Z" fill="white" />
-                        <path d="M20.6285 15.8873C21.527 14.6267 22 13.1671 22 11.6445C22 7.30022 18.1718 3.91016 13.6211 3.91016C9.06873 3.91016 5.24219 7.30181 5.24219 11.6445C5.24219 15.9888 9.07036 19.3789 13.6211 19.3789C14.8421 19.3789 16.0588 19.1301 17.1602 18.6571L20.9774 20.598C21.2091 20.7158 21.4889 20.6829 21.6869 20.5146C21.885 20.3463 21.9626 20.0755 21.8837 19.8278L20.6285 15.8873ZM11 12.2891C10.644 12.2891 10.3555 12.0005 10.3555 11.6445C10.3555 11.2886 10.644 11 11 11C11.356 11 11.6445 11.2886 11.6445 11.6445C11.6445 12.0005 11.356 12.2891 11 12.2891ZM13.5781 12.2891C13.2222 12.2891 12.9336 12.0005 12.9336 11.6445C12.9336 11.2886 13.2222 11 13.5781 11C13.9341 11 14.2227 11.2886 14.2227 11.6445C14.2227 12.0005 13.9341 12.2891 13.5781 12.2891ZM16.1562 12.2891C15.8003 12.2891 15.5117 12.0005 15.5117 11.6445C15.5117 11.2886 15.8003 11 16.1562 11C16.5122 11 16.8008 11.2886 16.8008 11.6445C16.8008 12.0005 16.5122 12.2891 16.1562 12.2891Z" fill="white" />
-                      </svg></span>
-                </a> 
+        <section class="about pt-100 pb-120 pos-rel">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 mt-20">
+                        <div class="xb-feature_wrap pos-rel ul_li">
+                            <div class="xb-item--icon">
+                                <img src="assets/img/icon/about-icon01.png" alt="">
+                            </div>
+                            <div class="xb-item--holder">
+                                <h3 class="xb-item--title">Academic Resources</h3>
+                                <span class="xb-item--content">We offers essential resources.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-20">
+                        <div class="xb-feature_wrap pos-rel ul_li">
+                            <div class="xb-item--icon">
+                                <img src="assets/img/icon/about-icon02.png" alt="">
+                            </div>
+                            <div class="xb-item--holder">
+                                <h3 class="xb-item--title">Aid & Scholarships</h3>
+                                <span class="xb-item--content">Financial Aid & Scholarships.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-20">
+                        <div class="xb-feature_wrap pos-rel ul_li">
+                            <div class="xb-item--icon">
+                                <img src="assets/img/icon/about-icon03.png" alt="">
+                            </div>
+                            <div class="xb-item--holder">
+                                <h3 class="xb-item--title">Your Future guide</h3>
+                                <span class="xb-item--content">Our guide is committed to success.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-title about-sec-title mb-60 pt-115 wow fadeInUp" data-wow-delay="0ms" data-wow-duration=".6s">
+                    <span class="sub-title">Our academics supports</span>
+                    <h1 class="title">Founded in 1970, Career Buddy College is a global leader in education, committed to quality, innovation, and sustainability, we continue of learning.</h1>
+                </div>
+                <div class="row align-items-center mt-none-30">
+                    <div class="col-lg-6 mt-30">
+                        <div class="xb-about_left wow fadeInLeft" data-wow-delay="100ms" data-wow-duration=".6s">
+                            <video 
+                            width="100%" 
+                            height="100%" 
+                            loop 
+                            muted 
+                            playsinline 
+                            autoplay 
+                            poster="assets/img/about/about-img01.jpg">
+                            <source src="https://html.xpressbuddy.com/edubost/about_video.mp4" type="video/mp4">
+                        </video>                        
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-30">
+                        <div class="xb-about-right ml-40 wow fadeInRight" data-wow-delay="200ms" data-wow-duration=".6s">
+                            <h4 class="xb-item--title mb-15">Innovation and Creativity</h4>
+                            <p class="xb-item--content">At Career Buddy College, innovation and creativity are at the heart ofeducational philosophy. We strive to foster an environment where students encouraged to think outside the box, explore new ideas, and push the boundaries of conventional learning. Our programs are designed to inspire originality and critical thinking, equipping students with the skills to innovate and create in their chosen fields, Through hands-on projects.</p>
+                            <div class="about-btn mt-30">
+                                <a class="more-btn" href="about.html">more about us
+                                    <span>
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.9585 1.66663H8.0418C7.17513 1.66663 6.4668 2.36663 6.4668 3.23329V4.01663C6.4668 4.88329 7.1668 5.58329 8.03346 5.58329H11.9585C12.8251 5.58329 13.5251 4.88329 13.5251 4.01663V3.23329C13.5335 2.36663 12.8251 1.66663 11.9585 1.66663Z" fill="#170006" />
+                                            <path d="M14.3667 4.01665C14.3667 5.34165 13.2834 6.42498 11.9584 6.42498H8.0417C6.7167 6.42498 5.63337 5.34165 5.63337 4.01665C5.63337 3.54998 5.13337 3.25832 4.7167 3.47498C3.5417 4.09998 2.7417 5.34165 2.7417 6.76665V14.6083C2.7417 16.6583 4.4167 18.3333 6.4667 18.3333H13.5334C15.5834 18.3333 17.2584 16.6583 17.2584 14.6083V6.76665C17.2584 5.34165 16.4584 4.09998 15.2834 3.47498C14.8667 3.25832 14.3667 3.54998 14.3667 4.01665ZM10.3167 14.125H6.6667C6.32503 14.125 6.0417 13.8417 6.0417 13.5C6.0417 13.1583 6.32503 12.875 6.6667 12.875H10.3167C10.6584 12.875 10.9417 13.1583 10.9417 13.5C10.9417 13.8417 10.6584 14.125 10.3167 14.125ZM12.5 10.7917H6.6667C6.32503 10.7917 6.0417 10.5083 6.0417 10.1667C6.0417 9.82498 6.32503 9.54165 6.6667 9.54165H12.5C12.8417 9.54165 13.125 9.82498 13.125 10.1667C13.125 10.5083 12.8417 10.7917 12.5 10.7917Z" fill="#170006" />
+                                          </svg>
+                                    </span>
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <!-- hero btn end -->
+            <div class="about-shape">
+                <img src="assets/img/shape/about-shape.png" alt="">
+            </div>
+         </section>
 
+        <section class="cta">
+            <div class="cta-wrapper bg_img pt-115 pb-120" data-background="assets/img/uploads/index-2.jpg">
+                <div class="container">
+                    <div class="xb-cta-wrap z-1 pos-rel">
+                        <div class="section-title text-center mb-40">
+                            <span class="sub-title">Let's Get Started</span>
+                            <h2 class="title mb-35">Where all belong</h2>
+                            <p class="cta-content">We believe education is enriched by the unique perspectives and  experiences each student brings, and we are committed to fostering an  environment that celebrates and values diversity in all its forms. It is central to our mission to embrace and encourage  diversity, equity and inclusion (DE&I).</p>
+                        </div>
+                        <div class="cta-btn btns justify-content-center ul_li">
+                            <a class="thm-btn thm-btn--white" href="courses.php">find the right program
+                                <span><img src="assets/img/icon/book.svg" alt=""></span>
+                            </a>
+                            <a class="thm-btn thm-btn--white"data-bs-toggle="modal" data-bs-target="#exampleModal">start you application
+                                <span><img src="assets/img/icon/learning.png" alt=""></span>
+                            </a>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade no-bg-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content border-0 shadow-none bg-transparent">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-0">
+        <?php require "applyform.php"; ?>
+      </div>
+    </div>
+  </div>
+</div>
+         </section>
+
+         <section>
+         <h1 class="text-center mt-5 mb-2">India's 1st End-To-End Career Services for Students</h1>
+  <div class="services-container">
+    <div class="service-card" style="background-color: #7ed4ec;">
+      <img src="assets/img/uploads/career.webp" alt="Career Icon">
+      <div class="service-title">Career</div>
+      <div class="service-description">
+        Still confused which career is best for you? Take our Career Aptitude Test to find the best course for you as per your Personality, Strengths & Interests.
+      </div>
+    </div>
+    <div class="service-card" style="background-color: #eee30d;">
+      <img src="assets/img/uploads/meeting.webp" alt="Courses Icon">
+      <div class="service-title">Courses</div>
+      <div class="service-description">
+        Will your Degree land you a Job? Take Job Guaranteed Degree from Career Buddy Club to have a Job after your Course.
+      </div>
+    </div>
+    <div class="service-card" style="background-color: #7ed4ec;">
+      <img src="assets/img/uploads/graduate.webp" alt="College Icon">
+      <div class="service-title">College</div>
+      <div class="service-description">
+        Worried about not getting into a good College? Let Career Buddy Club get you 100% Guaranteed Admission in the Best College as per your need.
+      </div>
+    </div>
+    <div class="service-card" style="background-color: #eee30d;">
+      <img src="assets/img/uploads/company.webp" alt="Company Icon">
+      <div class="service-title">Company</div>
+      <div class="service-description">
+        Not getting hired as a Fresher? Check our Job Portal for the latest Fresher Jobs & their Interview Dates.
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+    .services-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .service-card {
+      background-color: white;
+      border-radius: 16px;
+      text-align: center;
+      padding: 20px;
+      width: 260px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .service-card img {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 16px;
+    }
+
+    .service-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #212121;
+      margin-bottom: 10px;
+    }
+
+    .service-description {
+      font-size: 0.95rem;
+      color: #424242;
+    }
+
+    @media (max-width: 768px) {
+      .services-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
         <!-- blog section start  -->
-         <section class="blog pt-115 pb-40 bg_img" data-background="assets/img/bg/news_bg01.jpg">
+         <section class="blog pt-45 pb-40 bg_img" data-background="assets/img/bg/news_bg01.jpg">
             <div class="container">
                 <div class="blog-sec-top ul_li_between">
                     <div class="section-title mb-40">
@@ -149,7 +321,7 @@
                     </div>
                 </div>
                 <div class="row mt-none-60">
-                <div class="col-lg-3 col-md-6 mt-60">
+                <div class="col-lg-3 col-md-6 mb-40 mt-60">
                         <div class="xb-program__wrapper">
                             <div class="xb-item--img text-center">
                                 <a href="course-single.php"><img src="assets/img/uploads/nursing.jpg" alt=""></a>
@@ -314,7 +486,7 @@
                 <div class="xb-cta bg_img mt-120 pos-rel" data-background="assets/img/uploads/scholarship-banner.png">
                     <h2 class="mb-15">Get Your Quality Skills Certificate Through Guru Nanak College</h2>
                     <div class="xb-btn xb-cta-btn ul_li">
-                        <a class="thm-btn btn-yellow mt-20" href="contact.php">apply now
+                        <a class="thm-btn btn-yellow mt-20"data-bs-toggle="modal" data-bs-target="#exampleModal">apply now
                             <span><img src="assets/img/icon/learning.png" alt=""></span>
                         </a> 
                         <span class="mt-20"><img src="assets/img/icon/calling-icon.png" alt=""> 7300900900</span>
@@ -571,7 +743,7 @@
          </section>
         <!-- event section end  -->
  <!-- testimonial section start  -->
- <?php require "testimoni.php" ?>
+ <?php require "testimoni-2.php" ?>
         <!-- testimonial section end  -->
     </main>
     <!-- main area end  -->

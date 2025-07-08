@@ -6,14 +6,14 @@
     <main>
        
         <!-- breadcrumb start -->
-        <section class="breadcrumb bg_img ul_li" data-background="assets/img/bg/breadcrumb_bg.jpg">
-            <div class="container">
-                <div class="breadcrumb__content text-center">
-                    <h2 class="breadcrumb__title">Admission to New Anmol Group of Institution</h2>
-                    <p class="breadcrumb__desc">Your Pathway to Joining Our Academic Community</p>
-                </div>
-            </div>
-        </section>
+        <section class="breadcrumb bg_img ul_li" data-background="assets/img/uploads/anmol-banner.webp">
+        <div class="container">
+        <div class="breadcrumb__overlay-box">
+    <div class="breadcrumb__content text-center">
+        <h2 class="breadcrumb__title">Admission to New Anmol Group of Institution</h2>
+    </div>
+</div>
+</section>
         <!-- breadcrumb end -->
 
         <!-- admission start -->
@@ -323,7 +323,7 @@
                 <div class="row align-items-center mt-none-30">
                     <div class="col-xl-6 col-lg-5 mt-30">
                         <div class="about-image">
-                            <img src="assets/img/about/about-img03.jpg" alt="">
+                            <img src="assets/img/uploads/anmol-2.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-7 mt-30">

@@ -6,12 +6,14 @@
 <main>
 
     <!-- breadcrumb start -->
-    <section class="breadcrumb bg_img ul_li" data-background="assets/img/bg/breadcrumb_bg.jpg">
+    <section class="breadcrumb bg_img ul_li" data-background="assets/img/uploads/gnc-banner.webp">
         <div class="container">
-            <div class="breadcrumb__content text-center">
-                <h2 class="breadcrumb__title">Admission to Career Buddy College</h2>
-                <p class="breadcrumb__desc">Your Pathway to Joining Our Academic Community</p>
-            </div>
+        <div class="breadcrumb__overlay-box">
+    <div class="breadcrumb__content text-center">
+        <h2 class="breadcrumb__title">Admission to Guru Nanak College</h2>
+    </div>
+</div>
+
         </div>
     </section>
     <!-- breadcrumb end -->
@@ -124,9 +126,9 @@
                         <h4 class="xb-item--subtitle">With Guru Nanak College, you can:</h4>
                         <ul class="xb-item--list list-unstyled">
                             <li><span><img src="assets/img/icon/check.svg" alt=""></span>Practical Learning – Focus on learning by doing with hands-on experience.</li>
-                            <li><span><img src="assets/img/icon/check.svg" alt=""></span>Inclusive Values – Inspired by Guru Nanak Dev Ji’s teachings.</li>
+                            <li><span><img src="assets/img/icon/check.svg" alt=""></span>Inclusive Values – Rooted in Guru Nanak Dev Ji’s teachings of equality, service, and compassion.</li>
                             <li><span><img src="assets/img/icon/check.svg" alt=""></span>Affordable Education – Quality learning for all, without barriers.</li>
-                            <li><span><img src="assets/img/icon/check.svg" alt=""></span>Global & Diverse – Promotes international culture and lifelong growth.</li>
+                            <li><span><img src="assets/img/icon/check.svg" alt=""></span>Global & Diverse Outlook – Fosters international exposure, cultural exchange, and lifelong learning opportunities.</li>
                         </ul>
                         <div class="xb-item--shape">
                             <div class="shape shape--1">
@@ -142,7 +144,7 @@
         </div>
     </section>
     <!-- program section start  -->
-    <section class="program pos-rel pt-115">
+    <section class="program pos-rel pt-20">
         <div class="container">
             <div class="pro-top ul_li_between mb-40">
                 <div class="section-title mb-20">
@@ -151,7 +153,7 @@
                 </div>
             </div>
             <div class="row mt-none-60">
-                <div class="col-lg-3 col-md-6 mt-60">
+                <div class="col-lg-3 col-md-6 mt-60 mb-30">
                         <div class="xb-program__wrapper">
                             <div class="xb-item--img text-center">
                                 <a href="course-single.php"><img src="assets/img/uploads/nursing.jpg" alt=""></a>
