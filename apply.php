@@ -1,23 +1,30 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-$responseMessage = ''; // Variable to store the API response
+$responseMessage = '';
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $postData = [
         "AuthToken" => "applycbc_13-12-2024",
-            "Source" => "applycbc",
-            "FirstName" => $request->input('name'),
-            "Email" => $request->input('email'),
-            "MobileNumber" => $request->input('mobile'),
-            "LeadSource" => "1",
-            "LeadCampaign" => $request->input('LeadCampaign'),
-            "LeadChannel" => "36",
-            "Course" => $request->input('Course'),
-            "Center" => "1",
+        "Source" => "applycbc",
+        "FirstName" => $_POST['name'],
+        "Email" => $_POST['email'],
+        "MobileNumber" => $_POST['mobile'],
+        "LeadSource" => "1",
+        "LeadCampaign" => "cbc_website",
+        "Course" => $_POST['course'],
+        "Center" => "1",
     ];
     $response = extraaEdgePushBasicData($postData);
-    $responseMessage = $response;
+    $decodedResponse = json_decode($response, true);
+
+    if ($decodedResponse === null) {
+        $responseMessage = "Raw API Response: " . htmlspecialchars($response);
+    } else {
+        $responseMessage = "Decoded API Response:<br><pre>" . print_r($decodedResponse, true) . "</pre>";
+    }
+    echo $responseMessage;
 }
+
 
 function extraaEdgePushBasicData($data)
 {

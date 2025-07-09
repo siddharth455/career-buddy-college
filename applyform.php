@@ -58,20 +58,20 @@
         </div>
         <div class="mb-3">
           <label class="form-label">Enter Number</label>
-          <input class="form-control" type="tel" placeholder="10-digit Mobile Number" name="mobile" pattern="[0-9]{10}" required />
+          <input class="form-control" type="tel" placeholder="10-digit Mobile Number" name="mobile" maxlength="10" minlength="10" required />
         </div>
         <div class="mb-4">
           <label class="form-label">Select Course</label>
-          <select class="form-select" name="Course" required>
+          <select class="form-select" name="course" required>
             <option selected disabled>Select the course</option>
-            <option value="Bachelor of Medical Radio Diagnosis And Imaging Technology (BMRIT)">BMRIT</option>
-            <option value="Bachelor of Physiotherapy (BPT)">BPT</option>
-            <option value="Bachelor of Science in Optometry (BSc Optometry)">BSc Optometry</option>
-            <option value="Bachelor of Operation Theatre Technology (BOTT)">BOTT</option>
-            <option value="Bachelor of Science in Nursing (BSc Nursing)">BSc Nursing</option>
-            <option value="Bachelor of Medical Laboratory Technology (BMLT)">BMLT</option>
-            <option value="Master of Physiotherapy (MPT)">MPT</option>
-            <option value="Master of Hospital Administration (MHA)">MHA</option>
+            <option value="87">BMRIT</option>
+            <option value="90">BPT</option>
+            <option value="89">BSc Optometry</option>
+            <option value="88">BOTT</option>
+            <option value="91">BSc Nursing</option>
+            <option value="86">BMLT</option>
+            <option value="65">MPT</option>
+            <option value="103">MHA</option>
           </select>
         </div>
         <button type="submit" class="btn btn-primary w-100">Submit Application</button>
