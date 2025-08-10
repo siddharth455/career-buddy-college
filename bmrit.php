@@ -68,87 +68,59 @@
                                     </tr>
                                 </tbody>
                             </table>
-                          
-                            <h3>Ratings & Reviews of the Course</h3>
-                            <div class="course-review-info ul_li">
-                                <div class="xb-item--review">
-                                    <h2 class="xb-item--review-number">4.8</h2>
-                                    <ul class="xb-star ul_li_center">
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                    </ul>
-                                    <span class="xb-item--rating-text">1 rating</span>
-                                </div>
-                                <div class="xb-item--progress">
-                                    <div class="xb-item--progress-item">
-                                        <div class="xb-item--rating ul_li">
-                                            <span>5</span>
-                                            <i class="fas fa-star"></i>
-                                        </div>
-                                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar" style="width: 95%"><span>25%</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="xb-item--progress-item">
-                                        <div class="xb-item--rating ul_li">
-                                            <span>4</span>
-                                            <i class="fas fa-star"></i>
-                                        </div>
-                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="26" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar" style="width: 26%"><span>26%</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="xb-item--progress-item">
-                                        <div class="xb-item--rating ul_li">
-                                            <span>3</span>
-                                            <i class="fas fa-star"></i>
-                                        </div>
-                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar" style="width: 15%"><span>15%</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="xb-item--progress-item">
-                                        <div class="xb-item--rating ul_li">
-                                            <span>2</span>
-                                            <i class="fas fa-star-half-alt"></i>
-                                        </div>
-                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="7" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar" style="width: 7%"><span>7%</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="xb-item--progress-item">
-                                        <div class="xb-item--rating ul_li">
-                                            <span>1</span>
-                                            <i class="fas fa-star-half-alt"></i>
-                                        </div>
-                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar" style="width: 2%"><span>2%</span></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="course-review ul_li mt-70">
-                                <div class="xb-item--avatar">
-                                    <img src="assets/img/course/avatar3.jpg" alt="">
-                                </div>
-                                <div class="xb-item--holder">
-                                    <div class="ul_li mb-10">
-                                        <h3 class="xb-item--name">Amanda Nicole</h3>
-                                        <ul class="xb-star ul_li">
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                    <h4 class="xb-item--ttl">“ Outstanding Course ”</h4>
-                                    <p class="xb-item--contact">"An exceptional course that not only deepened my knowledge but also enhanced my professional skills. The instructors were knowledgeable and supportive throughout the journey."</p>
-                                </div>
-                            </div>
+                          <h2 class="faq mt-5">FAQ's</h2>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+     <h3>Who should consider pursuing a Bachelor of Medical Radio Diagnosis and Imaging Technology (BMRIT)?</h3>
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">The BMRIT program is ideal for students who are interested in medical diagnostics, imaging technology, and patient care. It suits individuals with a science background (preferably PCB in 10+2), attention to detail, and a passion for working with advanced medical equipment like X-rays, MRI, and CT scanners. It is also suitable for those who aspire to work in hospitals, diagnostic labs, or healthcare technology sectors.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+      <h3>What kind of careers can graduates of BMRIT pursue?</h3>
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Graduates can work as Radiology Technologists, MRI or CT Scan Technicians, Diagnostic Medical Sonographers, and Imaging Assistants. They are employed in hospitals, diagnostic centers, trauma care units, and research labs. With experience and certifications, they can also progress into supervisory roles or pursue higher studies like M.Sc. in Radiology & Imaging Technology.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+      <h3>Does the BMRIT course include practical training or internship opportunities?</h3>
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Yes, the BMRIT program includes mandatory internships in affiliated hospitals or diagnostic centers. Students get hands-on training in operating radiological equipment, handling patients, and interpreting diagnostic images under the supervision of experienced radiologists. This practical exposure is crucial for developing the skills required in real-world clinical settings.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+      <h3>What infrastructure and facilities are provided for students in the BMRIT course?</h3>
+      </button>
+    </h2>
+    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Institutions offering BMRIT usually provide state-of-the-art imaging labs equipped with modern diagnostic tools like digital X-ray machines, ultrasound units, MRI, and CT simulators. Additional facilities often include anatomy and physiology labs, multimedia classrooms, hospital tie-ups for training, and access to academic journals and digital resources.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+      <h3>Is the BMRIT degree recognized internationally for jobs or further education?</h3>
+      </button>
+    </h2>
+    <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Many countries accept BMRIT graduates for employment, especially in the Gulf, UK, and parts of Europe and Asia, provided candidates fulfill their local licensing or certification requirements. Graduates may also pursue higher education abroad in radiology or healthcare technology fields, enhancing their global career prospects.</div>
+    </div>
+  </div>
+</div>
                         </div>
                     </div>
                 </div>
@@ -158,15 +130,15 @@
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="xb-program__wrapper mt-30">
                                 <div class="xb-item--img text-center">
-                                    <a href="#!"><img src="assets/img/program/pro-img02.png" alt=""></a>
+                                    <a href="#!"><img src="assets/img/uploads/mpt.jpg" alt=""></a>
                                 </div>
                                 <div class="xb-item--holder">
                                     <div class="xb-item--deprt ul_li_between">
-                                        <div class="xb-item--rating"><span>4.5</span> <img src="assets/img/icon/rating.png" alt=""></div>
+                                        
                                     </div>
                                     <h2 class="xb-item--title border-effect-2"><a href="#!">Master in Physiotherapy</a></h2>
                                     <ul class="xb-item--meta ul_li">
-                                        <li><img src="assets/img/icon/meta-icon01.png" alt="">60 Seats</li>
+                                       
                                         <li><img src="assets/img/icon/clock.png" alt="">4 Semester</li>
                                     </ul>
                                     <div class="xb-item--dep-btn">
@@ -178,15 +150,15 @@
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="xb-program__wrapper mt-30">
                                 <div class="xb-item--img text-center">
-                                    <a href="#!"><img src="assets/img/program/pro-img03.png" alt=""></a>
+                                    <a href="#!"><img src="assets/img/uploads/nursing.jpg" alt=""></a>
                                 </div>
                                 <div class="xb-item--holder">
                                     <div class="xb-item--deprt ul_li_between">
-                                        <div class="xb-item--rating"><span>5.0</span> <img src="assets/img/icon/rating.png" alt=""></div>
+                                       
                                     </div>
                                     <h2 class="xb-item--title border-effect-2"><a href="#!">Bsc Nursing</a></h2>
                                     <ul class="xb-item--meta ul_li">
-                                        <li><img src="assets/img/icon/meta-icon01.png" alt="">80 Seat</li>
+                                    
                                         <li><img src="assets/img/icon/clock.png" alt="">8 Semester</li>
                                     </ul>
                                     <div class="xb-item--dep-btn">
@@ -198,15 +170,15 @@
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="xb-program__wrapper mt-30">
                                 <div class="xb-item--img text-center">
-                                    <a href="#!"><img src="assets/img/program/pro-img04.png" alt=""></a>
+                                    <a href="#!"><img src="assets/img/uploads/opto.jpg" alt=""></a>
                                 </div>
                                 <div class="xb-item--holder">
                                     <div class="xb-item--deprt ul_li_between">
-                                        <div class="xb-item--rating"><span>5.0</span> <img src="assets/img/icon/rating.png" alt=""></div>
+                                       
                                     </div>
                                     <h2 class="xb-item--title border-effect-2"><a href="#!">Bsc Optometry</a></h2>
                                     <ul class="xb-item--meta ul_li">
-                                        <li><img src="assets/img/icon/meta-icon01.png" alt="">60 Seat</li>
+                                     
                                         <li><img src="assets/img/icon/clock.png" alt="">6 Semester</li>
                                     </ul>
                                     <div class="xb-item--dep-btn">

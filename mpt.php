@@ -62,87 +62,59 @@
                                     </tr>
                                 </tbody>
                             </table>
-                          
-                            <h3>Ratings & Reviews of the Course</h3>
-                            <div class="course-review-info ul_li">
-                                <div class="xb-item--review">
-                                    <h2 class="xb-item--review-number">4.8</h2>
-                                    <ul class="xb-star ul_li_center">
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                    </ul>
-                                    <span class="xb-item--rating-text">1 rating</span>
-                                </div>
-                                <div class="xb-item--progress">
-                                    <div class="xb-item--progress-item">
-                                        <div class="xb-item--rating ul_li">
-                                            <span>5</span>
-                                            <i class="fas fa-star"></i>
-                                        </div>
-                                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar" style="width: 95%"><span>25%</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="xb-item--progress-item">
-                                        <div class="xb-item--rating ul_li">
-                                            <span>4</span>
-                                            <i class="fas fa-star"></i>
-                                        </div>
-                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="26" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar" style="width: 26%"><span>26%</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="xb-item--progress-item">
-                                        <div class="xb-item--rating ul_li">
-                                            <span>3</span>
-                                            <i class="fas fa-star"></i>
-                                        </div>
-                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar" style="width: 15%"><span>15%</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="xb-item--progress-item">
-                                        <div class="xb-item--rating ul_li">
-                                            <span>2</span>
-                                            <i class="fas fa-star-half-alt"></i>
-                                        </div>
-                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="7" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar" style="width: 7%"><span>7%</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="xb-item--progress-item">
-                                        <div class="xb-item--rating ul_li">
-                                            <span>1</span>
-                                            <i class="fas fa-star-half-alt"></i>
-                                        </div>
-                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar" style="width: 2%"><span>2%</span></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="course-review ul_li mt-70">
-                                <div class="xb-item--avatar">
-                                    <img src="assets/img/course/avatar3.jpg" alt="">
-                                </div>
-                                <div class="xb-item--holder">
-                                    <div class="ul_li mb-10">
-                                        <h3 class="xb-item--name">Amanda Nicole</h3>
-                                        <ul class="xb-star ul_li">
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                    <h4 class="xb-item--ttl">“ Outstanding Course ”</h4>
-                                    <p class="xb-item--contact">"An exceptional course that not only deepened my knowledge but also enhanced my professional skills. The instructors were knowledgeable and supportive throughout the journey."</p>
-                                </div>
-                            </div>
+                            <h2 class="faq mt-5">FAQ's</h2>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+     <h3>What does the MPT course offer to students?</h3>
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">The MPT is a 2-year postgraduate program focused on advanced clinical training and specialization in physiotherapy. It deepens your knowledge in areas like orthopedics, neurology, cardiopulmonary, sports, and pediatric physiotherapy, preparing you for higher-level clinical and academic roles.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+      <h3>Is MPT suitable for any graduate in physiotherapy?</h3>
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Yes, the MPT program is intended for students who have completed a Bachelor of Physiotherapy (BPT) and wish to advance their clinical expertise, specialize in a specific area, or pursue a career in research, teaching, or hospital administration related to physiotherapy.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+      <h3>Where can MPT graduates work?</h3>
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">MPT graduates can work as Clinical Physiotherapists, Rehabilitation Specialists, Academicians, Research Associates, or Consultants in hospitals, sports clinics, rehabilitation centers, academic institutions, or even start their own physiotherapy practice.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+      <h3>Will I get hands-on clinical experience during MPT?</h3>
+      </button>
+    </h2>
+    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Absolutely. Clinical training is integral to the MPT curriculum. Students are posted in hospitals and rehabilitation units under expert supervision, allowing them to apply theoretical knowledge to real-life patient care in their chosen specialization.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+      <h3>What kind of academic and practical support is available?</h3>
+      </button>
+    </h2>
+    <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">MPT students benefit from well-equipped physiotherapy labs, advanced rehabilitation equipment, gait analysis units, and access to modern hospital setups for clinical training. Seminars, workshops, and mentorship from experienced faculty further enhance the learning experience.</div>
+    </div>
+  </div>
+</div>
                         </div>
                     </div>
                 </div>
@@ -152,15 +124,15 @@
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="xb-program__wrapper mt-30">
                                 <div class="xb-item--img text-center">
-                                    <a href="#!"><img src="assets/img/program/pro-img02.png" alt=""></a>
+                                    <a href="#!"><img src="assets/img/uploads/bpt.jpg" alt=""></a>
                                 </div>
                                 <div class="xb-item--holder">
                                     <div class="xb-item--deprt ul_li_between">
-                                        <div class="xb-item--rating"><span>4.5</span> <img src="assets/img/icon/rating.png" alt=""></div>
+                                       
                                     </div>
                                     <h2 class="xb-item--title border-effect-2"><a href="#!">BAchelor in Physiotherapy</a></h2>
                                     <ul class="xb-item--meta ul_li">
-                                        <li><img src="assets/img/icon/meta-icon01.png" alt="">60 Seats</li>
+                                       
                                         <li><img src="assets/img/icon/clock.png" alt="">8 Semester</li>
                                     </ul>
                                     <div class="xb-item--dep-btn">
@@ -172,15 +144,15 @@
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="xb-program__wrapper mt-30">
                                 <div class="xb-item--img text-center">
-                                    <a href="#!"><img src="assets/img/program/pro-img03.png" alt=""></a>
+                                    <a href="#!"><img src="assets/img/uploads/nursing.jpg" alt=""></a>
                                 </div>
                                 <div class="xb-item--holder">
                                     <div class="xb-item--deprt ul_li_between">
-                                        <div class="xb-item--rating"><span>5.0</span> <img src="assets/img/icon/rating.png" alt=""></div>
+                                      
                                     </div>
                                     <h2 class="xb-item--title border-effect-2"><a href="#!">Bsc Nursing</a></h2>
                                     <ul class="xb-item--meta ul_li">
-                                        <li><img src="assets/img/icon/meta-icon01.png" alt="">80 Seat</li>
+                                        
                                         <li><img src="assets/img/icon/clock.png" alt="">8 Semester</li>
                                     </ul>
                                     <div class="xb-item--dep-btn">
@@ -192,15 +164,15 @@
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="xb-program__wrapper mt-30">
                                 <div class="xb-item--img text-center">
-                                    <a href="#!"><img src="assets/img/program/pro-img04.png" alt=""></a>
+                                    <a href="#!"><img src="assets/img/uploads/ott.jpg" alt=""></a>
                                 </div>
                                 <div class="xb-item--holder">
                                     <div class="xb-item--deprt ul_li_between">
-                                        <div class="xb-item--rating"><span>5.0</span> <img src="assets/img/icon/rating.png" alt=""></div>
+                                        
                                     </div>
                                     <h2 class="xb-item--title border-effect-2"><a href="#!">Bsc operation Theatre</a></h2>
                                     <ul class="xb-item--meta ul_li">
-                                        <li><img src="assets/img/icon/meta-icon01.png" alt="">60 Seat</li>
+                                     
                                         <li><img src="assets/img/icon/clock.png" alt="">6 Semester</li>
                                     </ul>
                                     <div class="xb-item--dep-btn">
