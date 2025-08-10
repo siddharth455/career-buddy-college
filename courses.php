@@ -6,11 +6,11 @@
     <main>
        
         <!-- breadcrumb start -->
-        <section class="breadcrumb bg_img ul_li" data-background="assets/img/bg/breadcrumb_bg.jpg">
+        <section class="breadcrumb bg_img ul_li" data-background="assets/img/uploads/course.webp">
             <div class="container">
                 <div class="breadcrumb__content text-center">
-                    <h2 class="breadcrumb__title">Our Courses</h2>
-                    <p class="breadcrumb__desc">Empowering Wide Range of Learning Opportunities</p>
+                    <h2 class="breadcrumb__title"></h2>
+                    <p class="breadcrumb__desc"></p>
                 </div>
             </div>
         </section>
@@ -21,18 +21,18 @@
             <div class="container">
                 
                 <div class="row mt-none-60">
-                <div class="col-lg-3 col-md-6 mt-60">
+                <div class="col-lg-3 col-md-6 mt-60 mb-60">
                         <div class="xb-program__wrapper">
                             <div class="xb-item--img text-center">
                                 <a href="course-single.php"><img src="assets/img/uploads/nursing.jpg" alt=""></a>
                             </div>
                             <div class="xb-item--holder">
                                 <div class="xb-item--deprt ul_li_between">
-                                    <div class="xb-item--rating"><span>4.9</span> <img src="assets/img/icon/rating.png" alt=""></div>
+                                   
                                 </div>
                                 <h2 class="xb-item--title border-effect-2"><a href="course-single.php">Bachelor of Science in Nursing (Bsc Nursing)</a></h2>
                                 <ul class="xb-item--meta ul_li">
-                                    <li><img src="assets/img/icon/meta-icon01.png" alt="">80 Seat</li>
+                                   
                                     <li><img src="assets/img/icon/clock.png" alt="">8 Semester</li>
                                 </ul>
                                 <div class="xb-item--dep-btn">
@@ -49,11 +49,11 @@
                             </div>
                             <div class="xb-item--holder">
                                 <div class="xb-item--deprt ul_li_between">
-                                    <div class="xb-item--rating"><span>4.5</span> <img src="assets/img/icon/rating.png" alt=""></div>
+                                   
                                 </div>
                                 <h2 class="xb-item--title border-effect-2"><a href="course-single.php">Bachelor of Physiotherapy (BPT)</a></h2>
                                 <ul class="xb-item--meta ul_li">
-                                    <li><img src="assets/img/icon/meta-icon01.png" alt="">60 Seat</li>
+                                   
                                     <li><img src="assets/img/icon/clock.png" alt="">8 Semester</li>
                                 </ul>
                                 <div class="xb-item--dep-btn">
@@ -69,11 +69,11 @@
                             </div>
                             <div class="xb-item--holder">
                                 <div class="xb-item--deprt ul_li_between">
-                                    <div class="xb-item--rating"><span>5.0</span> <img src="assets/img/icon/rating.png" alt=""></div>
+                                    
                                 </div>
                                 <h2 class="xb-item--title border-effect-2"><a href="course-single.php">Bachelor of science in Optometry (Bsc Optometry)</a></h2>
                                 <ul class="xb-item--meta ul_li">
-                                    <li><img src="assets/img/icon/meta-icon01.png" alt="">60 Seat</li>
+                                    
                                     <li><img src="assets/img/icon/clock.png" alt="">6 Semester</li>
                                 </ul>
                                 <div class="xb-item--dep-btn">
@@ -89,11 +89,11 @@
                             </div>
                             <div class="xb-item--holder">
                                 <div class="xb-item--deprt ul_li_between">
-                                    <div class="xb-item--rating"><span>5.0</span> <img src="assets/img/icon/rating.png" alt=""></div>
+                                    
                                 </div>
                                 <h2 class="xb-item--title border-effect-2"><a href="course-single.php">Bachelor of Operation Theatre Technology (BOTT)</a></h2>
                                 <ul class="xb-item--meta ul_li">
-                                    <li><img src="assets/img/icon/meta-icon01.png" alt="">60 Seat</li>
+                                    
                                     <li><img src="assets/img/icon/clock.png" alt="">6 Semester</li>
                                 </ul>
                                 <div class="xb-item--dep-btn">
@@ -109,11 +109,11 @@
                             </div>
                             <div class="xb-item--holder">
                                 <div class="xb-item--deprt ul_li_between">
-                                    <div class="xb-item--rating"><span>5.0</span> <img src="assets/img/icon/rating.png" alt=""></div>
+                                    
                                 </div>
                                 <h2 class="xb-item--title border-effect-2"><a href="course-single.php">Bachelor of Medical Laboratory Technology</a></h2>
                                 <ul class="xb-item--meta ul_li">
-                                    <li><img src="assets/img/icon/meta-icon01.png" alt="">60 Seat</li>
+                                   
                                     <li><img src="assets/img/icon/clock.png" alt="">6 Semester</li>
                                 </ul>
                                 <div class="xb-item--dep-btn">
@@ -129,11 +129,11 @@
                             </div>
                             <div class="xb-item--holder">
                                 <div class="xb-item--deprt ul_li_between">
-                                    <div class="xb-item--rating"><span>5.0</span> <img src="assets/img/icon/rating.png" alt=""></div>
+                                    
                                 </div>
                                 <h2 class="xb-item--title border-effect-2"><a href="course-single.php">Bachelor in Medical Radio and Imaging Technology</a></h2>
                                 <ul class="xb-item--meta ul_li">
-                                    <li><img src="assets/img/icon/meta-icon01.png" alt="">60 Seat</li>
+                                    
                                     <li><img src="assets/img/icon/clock.png" alt="">6 Semester</li>
                                 </ul>
                                 <div class="xb-item--dep-btn">
@@ -149,11 +149,11 @@
                             </div>
                             <div class="xb-item--holder">
                                 <div class="xb-item--deprt ul_li_between">
-                                    <div class="xb-item--rating"><span>5.0</span> <img src="assets/img/icon/rating.png" alt=""></div>
+                                    
                                 </div>
                                 <h2 class="xb-item--title border-effect-2"><a href="course-single.php">Master of Physiotherapy (MPT)</a></h2>
                                 <ul class="xb-item--meta ul_li">
-                                    <li><img src="assets/img/icon/meta-icon01.png" alt="">60 Seat</li>
+                                    
                                     <li><img src="assets/img/icon/clock.png" alt="">4 Semester</li>
                                 </ul>
                                 <div class="xb-item--dep-btn">
@@ -169,11 +169,11 @@
                             </div>
                             <div class="xb-item--holder">
                                 <div class="xb-item--deprt ul_li_between">
-                                    <div class="xb-item--rating"><span>5.0</span> <img src="assets/img/icon/rating.png" alt=""></div>
+                                    
                                 </div>
                                 <h2 class="xb-item--title border-effect-2"><a href="course-single.php">Master of Hospital Administration (MHA)</a></h2>
                                 <ul class="xb-item--meta ul_li">
-                                    <li><img src="assets/img/icon/meta-icon01.png" alt="">60 Seat</li>
+                                    
                                     <li><img src="assets/img/icon/clock.png" alt="">4 Semester</li>
                                 </ul>
                                 <div class="xb-item--dep-btn">
@@ -183,13 +183,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="xb-cta bg_img mt-40 pos-rel pb-120" data-background="assets/img/uploads/scholarship-banner.png">
-                    <h2 class="mb-15">Get Your Quality Skills Certificate Through Guru Nanak College</h2>
+                <div class="xb-cta bg_img mt-100 pos-rel" data-background="assets/img/uploads/scholarship-banner.png">
+                    <h2 class="mb-15" style="color: #212121;">Get Your Quality Skills Certificate Through Career Buddy College</h2>
                     <div class="xb-btn xb-cta-btn ul_li">
                         <a class="thm-btn btn-yellow mt-20"data-bs-toggle="modal" data-bs-target="#exampleModal">apply now
                             <span><img src="assets/img/icon/learning.png" alt=""></span>
                         </a> 
-                        <span class="mt-20"><img src="assets/img/icon/calling-icon.png" alt=""> 7300900900</span>
+                        <span class="mt-20" style="color: #212121;"><img src="assets/img/icon/call-icon.png" style="width: 21px; height:21px;" alt=""> 7300900900</span>
                     </div>
                 </div>
             </div>

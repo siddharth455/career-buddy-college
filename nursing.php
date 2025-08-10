@@ -61,86 +61,60 @@
                                 </tbody>
                             </table>
                           
-                            <h3>Ratings & Reviews of the Course</h3>
-                            <div class="course-review-info ul_li">
-                                <div class="xb-item--review">
-                                    <h2 class="xb-item--review-number">5</h2>
-                                    <ul class="xb-star ul_li_center">
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                    </ul>
-                                    <span class="xb-item--rating-text">1 rating</span>
-                                </div>
-                                <div class="xb-item--progress">
-                                    <div class="xb-item--progress-item">
-                                        <div class="xb-item--rating ul_li">
-                                            <span>5</span>
-                                            <i class="fas fa-star"></i>
-                                        </div>
-                                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar" style="width: 95%"><span>27%</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="xb-item--progress-item">
-                                        <div class="xb-item--rating ul_li">
-                                            <span>4</span>
-                                            <i class="fas fa-star"></i>
-                                        </div>
-                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="26" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar" style="width: 26%"><span>26%</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="xb-item--progress-item">
-                                        <div class="xb-item--rating ul_li">
-                                            <span>3</span>
-                                            <i class="fas fa-star"></i>
-                                        </div>
-                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar" style="width: 15%"><span>15%</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="xb-item--progress-item">
-                                        <div class="xb-item--rating ul_li">
-                                            <span>2</span>
-                                            <i class="fas fa-star-half-alt"></i>
-                                        </div>
-                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="7" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar" style="width: 7%"><span>7%</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="xb-item--progress-item">
-                                        <div class="xb-item--rating ul_li">
-                                            <span>1</span>
-                                            <i class="fas fa-star-half-alt"></i>
-                                        </div>
-                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar" style="width: 2%"><span>1%</span></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="course-review ul_li mt-70">
-                                <div class="xb-item--avatar">
-                                    <img src="assets/img/course/avatar3.jpg" alt="">
-                                </div>
-                                <div class="xb-item--holder">
-                                    <div class="ul_li mb-10">
-                                        <h3 class="xb-item--name">Amanda Nicole</h3>
-                                        <ul class="xb-star ul_li">
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                    <h4 class="xb-item--ttl">“ Outstanding Course ”</h4>
-                                    <p class="xb-item--contact">"An exceptional course that not only deepened my knowledge but also enhanced my professional skills. The instructors were knowledgeable and supportive throughout the journey."</p>
-                                </div>
-                            </div>
+                            <h2 class="faq mt-5">FAQ's</h2>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+     <h3>How does BSc Nursing prepare students for a career in healthcare?</h3>
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">BSc Nursing is a 4-year undergraduate program that equips students with in-depth knowledge of patient care, medical procedures, and healthcare systems. It blends theoretical instruction with extensive clinical training to prepare competent, compassionate, and professional nurses.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+      <h3>Is BSc Nursing the right choice for me?</h3>
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">If you are passionate about healthcare, helping others, and working in clinical environments, BSc Nursing is an ideal fit. It's suitable for students with a background in science who aspire to become registered nurses or move into advanced medical or academic roles.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+      <h3>What can I do after completing this course?</h3>
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">BSc Nursing graduates can work as Registered Nurses, Nurse Educators, ICU Nurses, Community Health Officers, and Clinical Instructors in hospitals, clinics, military healthcare, schools, and public health departments, both in India and abroad.
+</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+      <h3>Will I get real hospital experience during the course?</h3>
+      </button>
+    </h2>
+    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Yes, the program includes rigorous clinical training in multispecialty hospitals. Students gain hands-on experience in departments like pediatrics, surgery, psychiatry, and maternity care under the supervision of licensed professionals.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+      <h3>How will the college support my academic and practical learning?</h3>
+      </button>
+    </h2>
+    <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Nursing students have access to simulation labs, skill development centers, a well-stocked library, digital resources, hostel facilities, and guidance from experienced nursing faculty. Regular workshops and medical camps further enrich the learning journey.</div>
+    </div>
+  </div>
+</div>
                         </div>
                     </div>
                 </div>
@@ -150,15 +124,15 @@
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="xb-program__wrapper mt-30">
                                 <div class="xb-item--img text-center">
-                                    <a href="#!"><img src="assets/img/program/pro-img02.png" alt=""></a>
+                                    <a href="#!"><img src="assets/img/uploads/mpt.jpg" alt=""></a>
                                 </div>
                                 <div class="xb-item--holder">
                                     <div class="xb-item--deprt ul_li_between">
-                                        <div class="xb-item--rating"><span>4.5</span> <img src="assets/img/icon/rating.png" alt=""></div>
+                                       
                                     </div>
                                     <h2 class="xb-item--title border-effect-2"><a href="#!">Master in Physiotherapy</a></h2>
                                     <ul class="xb-item--meta ul_li">
-                                        <li><img src="assets/img/icon/meta-icon01.png" alt="">60 Seats</li>
+                                        
                                         <li><img src="assets/img/icon/clock.png" alt="">4 Semester</li>
                                     </ul>
                                     <div class="xb-item--dep-btn">
@@ -170,15 +144,15 @@
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="xb-program__wrapper mt-30">
                                 <div class="xb-item--img text-center">
-                                    <a href="#!"><img src="assets/img/program/pro-img03.png" alt=""></a>
+                                    <a href="#!"><img src="assets/img/uploads/bmrit.jpg" alt=""></a>
                                 </div>
                                 <div class="xb-item--holder">
                                     <div class="xb-item--deprt ul_li_between">
-                                        <div class="xb-item--rating"><span>5.0</span> <img src="assets/img/icon/rating.png" alt=""></div>
+                                       
                                     </div>
                                     <h2 class="xb-item--title border-effect-2"><a href="#!">BMRIT</a></h2>
                                     <ul class="xb-item--meta ul_li">
-                                        <li><img src="assets/img/icon/meta-icon01.png" alt="">60 Seat</li>
+                                        
                                         <li><img src="assets/img/icon/clock.png" alt="">6 Semester</li>
                                     </ul>
                                     <div class="xb-item--dep-btn">
@@ -190,15 +164,15 @@
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="xb-program__wrapper mt-30">
                                 <div class="xb-item--img text-center">
-                                    <a href="#!"><img src="assets/img/program/pro-img04.png" alt=""></a>
+                                    <a href="#!"><img src="assets/img/uploads/opto.jpg" alt=""></a>
                                 </div>
                                 <div class="xb-item--holder">
                                     <div class="xb-item--deprt ul_li_between">
-                                        <div class="xb-item--rating"><span>5.0</span> <img src="assets/img/icon/rating.png" alt=""></div>
+                                       
                                     </div>
                                     <h2 class="xb-item--title border-effect-2"><a href="#!">Bsc Optometry</a></h2>
                                     <ul class="xb-item--meta ul_li">
-                                        <li><img src="assets/img/icon/meta-icon01.png" alt="">60 Seat</li>
+                                       
                                         <li><img src="assets/img/icon/clock.png" alt="">6 Semester</li>
                                     </ul>
                                     <div class="xb-item--dep-btn">
