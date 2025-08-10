@@ -5,14 +5,15 @@ $responseMessage = '';
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $postData = [
         "AuthToken" => "applycbc_13-12-2024",
-        "Source" => "applycbc",
+        "Source" => "Digital",
         "FirstName" => $_POST['name'],
         "Email" => $_POST['email'],
         "MobileNumber" => $_POST['mobile'],
         "LeadSource" => "1",
-        "LeadCampaign" => "cbc_website",
+        "LeadCampaign" => "cbc_college",
         "Course" => $_POST['course'],
         "Center" => "1",
+        "Location" => $_POST['location'],
     ];
     $response = extraaEdgePushBasicData($postData);
     $decodedResponse = json_decode($response, true);
